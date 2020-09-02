@@ -1,2 +1,1 @@
-export 'search_result_page.dart';
-export 'home/home_screen.dart';
+export 'home_screen.dart';

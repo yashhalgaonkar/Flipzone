@@ -27,4 +27,11 @@ class Flipzone {
     enabledBorder: null,
     focusedBorder: null,
   );
+
+  static const TextStyle kTitleTextStyle = const TextStyle(
+    color: Colors.white,
+    fontSize: 24.0,
+    fontWeight: FontWeight.bold,
+    letterSpacing: -1.2,
+  );
 }
