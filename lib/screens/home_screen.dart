@@ -37,7 +37,19 @@ class HomeBody extends StatelessWidget {
         SliverPadding(
           padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 12.0),
           sliver: SliverToBoxAdapter(
-            child: MyHistory(productList: getHistory),
+            child: MyProductList(productList: types, title: 'History'),
+          ),
+        ),
+        SliverPadding(
+          padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+          sliver: SliverToBoxAdapter(
+            child: MyProductList(productList: types, title: 'Featured'),
+          ),
+        ),
+        SliverPadding(
+          padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+          sliver: SliverToBoxAdapter(
+            child: MyProductList(productList: types, title: 'Popular'),
           ),
         ),
       ],
